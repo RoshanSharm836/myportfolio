@@ -5,6 +5,7 @@ import Resume from "./component/Resume";
 import Slot from "./component/Slot";
 import Project from "./component/Project";
 import Contact from "./component/Contact";
+import Skill from "./component/Skill";
 
 function Main() {
   const obj = {
@@ -12,6 +13,7 @@ function Main() {
     resume: <Resume />,
     project: <Project />,
     contact: <Contact />,
+    Skill: <Skill />,
   };
   const [page, setPage] = useState("about");
   const [slots, setSlots] = useState(obj[page]);

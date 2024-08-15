@@ -61,7 +61,7 @@ function Resume() {
       </section>
 
       <section className="timeline">
-        <div className="title-wrapper">
+        <div className="title-wrapper !m-0">
           <div className="icon-box">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,20 +75,41 @@ function Resume() {
             </svg>
           </div>
 
-          <h3 className="h3">Experience</h3>
+          <h3 className="h3">PROFESSIONAL EXPERIENCE</h3>
+        </div>
+        <div className="h5 ml-11 md:ml-16 my-3 text-sm">
+          Total Experience: 1.5 Years +
         </div>
 
         <ol className="timeline-list">
           <li className="timeline-item">
-            <h4 className="h4 timeline-item-title">
-              Junior Full Stack Developer
-            </h4>
+            <h3 className="h3 timeline-item-title">Bharatrath</h3>
+            <p className="timeline-text">Junior Full Stack Developer</p>
 
             <span>Aug 2023 — Present</span>
 
-            <p className="timeline-text">
-              Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit
-              atque corrupti, quos dolores et qvuas molestias exceptur.
+            <p className="timeline-text gap-2 grid mt-3">
+              <p>
+                <span>Website Builder:</span> Developed a no-code website
+                builder, empowering clients to create their websites
+                effortlessly without needing technical knowledge.
+              </p>
+              <p>
+                <span>Landing Page Development: </span> Designed and enhanced a
+                landing page, implementing key front-end improvements to boost
+                user engagement and experience.
+              </p>
+              <p>
+                <span>SASS System Development: </span> Played a pivotal role in
+                establishing a SASS system, contributing to the creation of a
+                SASS product/ERP system aimed at optimizing business processes.
+              </p>
+              <p>
+                <span>UX/UI Collaboration: </span>
+                Worked closely with the UX/UI team to refine user experience and
+                interface design, ensuring the product is user-friendly and
+                aesthetically pleasing.
+              </p>
             </p>
           </li>
         </ol>

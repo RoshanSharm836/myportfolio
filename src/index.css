@@ -401,7 +401,9 @@ main {
 .info_more-btn span {
   display: none;
 }
-
+.skill-item {
+  background-color: var(--jet);
+}
 .sidebar-info_more {
   opacity: 0;
   visibility: hidden;
@@ -1207,7 +1209,8 @@ main {
   height: 100%;
 }
 
-.mapbox iframe {
+.mapbox iframe,
+.grayscale {
   width: 100%;
   height: 100%;
   border: none;

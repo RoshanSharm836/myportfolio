@@ -23,6 +23,15 @@ function Navbar({ get, page }) {
             Resume
           </button>
         </li>
+        <li className="navbar-item">
+          <button
+            className={`navbar-link ${page === "Skill" ? "active" : ""}`}
+            data-nav-link
+            onClick={() => get("Skill")}
+          >
+            Skill
+          </button>
+        </li>
 
         <li className="navbar-item">
           <button
